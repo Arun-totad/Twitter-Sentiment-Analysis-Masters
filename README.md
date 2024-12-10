@@ -1,22 +1,25 @@
+Sure! Here's a formatted README.md for your Twitter Sentiment Analysis project:
+
 # Twitter Sentiment Analysis
+
 This project performs sentiment analysis on Twitter data using a Logistic Regression model. The analysis involves preprocessing text data, vectorizing it using TF-IDF, and training a Logistic Regression model to classify sentiments as positive or negative.
 
-#Table of Contents
-Installation
-Usage
-Project Structure
-Data
-Model
-Evaluation
-Prediction
-License
-Installation
-Clone the repository:
+## Table of Contents
+- Installation
+- Usage
+- Project Structure
+- Data
+- Model
+- Evaluation
+- Prediction
+- License
 
+## Installation
 
-#Installation
-git clone https://github.com/Arun-Totad/twitter-sentiment-analysis-Masters.git
-cd twitter-sentiment-analysis
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/twitter-sentiment-analysis.git
+   cd twitter-sentiment-analysis
 Install the required libraries:
 
 pip install pandas numpy scikit-learn nltk
@@ -80,19 +83,18 @@ def user_input():
     print(f"Text: {new_text}")
     print(f"Predicted Sentiment: {sentiment}")
 user_input()
-
-# Project Structure
+Project Structure
 sentiment140.csv: The dataset containing Twitter data.
 twitter_sentiment_analysis.py: The main script for preprocessing, training, evaluating, and predicting sentiments.
 Data
 The dataset used is the Sentiment140 dataset, which contains 1.6 million tweets labeled as positive (1) or negative (0).
 
-# Model
+Model
 The model used is a Logistic Regression classifier trained on TF-IDF vectorized text data.
 
-# Evaluation
+Evaluation
 The model is evaluated using accuracy and classification report metrics.
 
-#Prediction
+Prediction
 The model can predict the sentiment of new, unseen text data.
 
