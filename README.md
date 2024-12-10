@@ -14,10 +14,11 @@ This project performs sentiment analysis on Twitter data using a Logistic Regres
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/Arun-totad/Twitter-Sentiment-Analysis-Masters.git
    cd twitter-sentiment-analysis
+   ```
 Install the required libraries:
    ```bash
    pip install pandas numpy scikit-learn nltk
