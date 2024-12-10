@@ -1,5 +1,3 @@
-Sure! Here's a formatted README.md for your Twitter Sentiment Analysis project:
-
 # Twitter Sentiment Analysis
 
 This project performs sentiment analysis on Twitter data using a Logistic Regression model. The analysis involves preprocessing text data, vectorizing it using TF-IDF, and training a Logistic Regression model to classify sentiments as positive or negative.
@@ -18,7 +16,7 @@ This project performs sentiment analysis on Twitter data using a Logistic Regres
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/twitter-sentiment-analysis.git
+   git clone https://github.com/Arun-totad/Twitter-Sentiment-Analysis-Masters.git
    cd twitter-sentiment-analysis
 Install the required libraries:
 
