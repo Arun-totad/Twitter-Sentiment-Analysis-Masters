@@ -10,11 +10,11 @@ This project performs sentiment analysis on Twitter data using a Logistic Regres
 - Model
 - Evaluation
 - Prediction
-- License
+
 
 ## Installation
 
-1. **Clone the repository:**
+1. Clone the repository:
    ```bash
    git clone https://github.com/Arun-totad/Twitter-Sentiment-Analysis-Masters.git
    cd twitter-sentiment-analysis
